@@ -19,9 +19,9 @@
 
 	<!-- entity set values-->
 	<bean class="amit.learns.jdbc.entities.Student" name="entity">
-		<property name="name" value="tejas" />
-		<property name="id" value="3" />
-		<property name="city" value="pune" />
+		<property name="name" value="anurag" />
+		<!-- <property name="id" value="4" />-->
+		<property name="city" value="agra" />
 	</bean>
 	
 	

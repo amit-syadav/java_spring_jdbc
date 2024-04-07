@@ -32,4 +32,10 @@ public class DataSetterDaoImpl implements DataSetterDao {
 		return inserted_rows;
 	}
 
+	@Override
+	public void select() {
+		// TODO Auto-generated method stub 
+		 
+	}
+
 }

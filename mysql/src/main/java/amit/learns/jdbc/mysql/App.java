@@ -17,7 +17,7 @@ public class App {
 		Student stf = ap.getBean("entity", Student.class);
 		DataSetterDaoImpl dataSetter = ap.getBean("datasetter", DataSetterDaoImpl.class);
 
-		System.out.println(dataSetter.insert(stf));
+		System.out.println("Number of rows affected by inseret are: "+  dataSetter.insert(stf));
 		
 		((ClassPathXmlApplicationContext)ap).close();
 

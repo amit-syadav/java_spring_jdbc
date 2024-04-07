@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 21
+Main-Class: amit.learns.jdbc.mysql.App
+Created-By: Maven Integration for Eclipse
+
