@@ -10,7 +10,7 @@
 	<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource"
 		name="datasource">
 		<constructor-arg name="url"
-			value="jdbc:mysql://localhost:3306/springjdbc" />
+			value="jdbc:mysql://mysql:3306/springjdbc" />
 		<constructor-arg name="username" value="root" />
 		<constructor-arg name="password" value="amit1234" />
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
